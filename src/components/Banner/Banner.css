@@ -1,0 +1,33 @@
+.banner{
+    position: relative;
+    height: 54vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner_contents{
+    width: fit-content;
+    padding-left: 40px;
+}
+
+.banner_buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    padding-top: 20px;
+}
+
+.banner_buttons > button{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+}
+
+.banner_contents > h3{
+    padding-top: 20px;
+    width: 500px;
+    font-weight: bolder;
+    font-size: 0.9rem;
+}

@@ -6,7 +6,7 @@ import SignInBody from "../../components/SignInBody/SignInBody.js";
 function SignIn(){
     return(
         <div>
-            <Navbar />
+            <Navbar showSignInButton = {false} />
             <SignInBody />
         </div>
     );
