@@ -1,0 +1,24 @@
+.navbar_container{
+    display: flex;
+    background-color: rgb(161, 248, 228);
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(38, 247, 198);
+    padding: 0 5%;
+}
+
+.navbar_logo{
+    width: 45px;
+    margin: 5px 0;
+}
+
+.navbar_button{
+    background-color: lightgrey;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 14px;
+}
