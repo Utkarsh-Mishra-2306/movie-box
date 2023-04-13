@@ -1,0 +1,32 @@
+.row{
+    background-color: black;
+}
+
+.row > h1{
+    color: whitesmoke;
+    font-weight: 600;
+    font-size: 1.7rem;
+    padding-left: 20px;
+    opacity: 0.4;
+}
+
+.row_posters{
+    display: flex;
+    padding: 25px;
+    overflow-x: scroll;
+}
+
+.row_poster{
+    height: 100px;
+    object-fit: contain;
+    padding: 0 6px;
+    transition: transform 0.4s;
+}
+
+.row_poster:hover{
+    transform: scale(1.2);
+}
+
+.rowPoster_large{
+    height: 250px !important;
+}

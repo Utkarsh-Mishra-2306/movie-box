@@ -6,7 +6,7 @@ import LandingPageContent from "../../components/LandingPageContent/LandingPageC
 function LandingPage(){
     return(
         <div className = "landingpage_container">
-            <Navbar />
+            <Navbar showBackground = {true}/>
             <LandingPageContent />
         </div>
     );

@@ -1,15 +1,29 @@
 .navbar_container{
     display: flex;
-    background-color: rgb(161, 248, 228);
+    position: sticky;
+    top: 0;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 2px solid rgb(38, 247, 198);
     padding: 0 5%;
 }
 
+.navbar_backgroundcolor{
+    height: 55px;
+    background-color: rgb(161, 248, 228);
+    border-bottom: 2px solid rgb(38, 247, 198);
+}
+
+.navbar_dark{
+    height: 55px;
+    background-color: whitesmoke;
+}
+
 .navbar_logo{
+    position: fixed;
+    top: 5px;
+    left: 10px;
     width: 45px;
-    margin: 5px 0;
+    cursor: pointer;
 }
 
 .navbar_button{
@@ -24,7 +38,10 @@
 }
 
 .navbar_icon{
+    color: rgb(10, 180, 218);
+    position: fixed;
+    top: 8px;
+    right: 25px;
     cursor: pointer;
-    margin: 5px 0;
 }
 
